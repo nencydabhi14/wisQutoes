@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#10171F">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/quote_frem_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/insta_post_like"
+                    android:visibility="gone"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/instapost"
+                    android:layout_gravity="center"/>
+                <ProgressBar
+                    android:id="@+id/quotes_progress"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/quotes_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="380dp"
+                    android:src="@drawable/image1"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/quotes_txt"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="22dp"/>
+
+<!--                <ProgressBar-->
+<!--                    android:id="@+id/progress_bar"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"/>-->
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/like_img"
+                    android:layout_gravity="center"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ripaleffect"
+                    android:padding="22dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/like"/>
+                <ImageView
+                    android:id="@+id/copied_img"
+                    android:layout_gravity="center"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ripaleffect"
+                    android:padding="22dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/copy"/>
+                <ImageView
+                    android:id="@+id/save_img"
+                    android:layout_gravity="center"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ripaleffect"
+                    android:padding="22dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/download"/>
+                <ImageView
+                    android:id="@+id/share_img"
+                    android:layout_gravity="center"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripaleffect"
+                    android:padding="22dp"
+                    android:src="@drawable/share"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>
