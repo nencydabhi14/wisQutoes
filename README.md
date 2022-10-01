@@ -4,7 +4,8 @@
 ❉ 𝐀𝐛𝐨𝐮𝐭 𝐀𝐩𝐩
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-      This Application are totaly made in Java Language. In this app are 500+ categoryes. this the app is Amazing UI.
+      This Application are totaly made in Java Language. In this app are 500+ categoryes.
+      this the app is Amazing UI.
 
 
 
